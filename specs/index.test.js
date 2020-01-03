@@ -7,5 +7,5 @@ afterEach(() => {
 })
 
 test('home route', async () => {
-  expect((await request.get('/')).text).toEqual('Olar')
+  expect((await request.get('/')).text).toEqual('Index')
 })
