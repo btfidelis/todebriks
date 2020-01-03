@@ -1,0 +1,23 @@
+{
+  "name": "todebriks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npx jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "@koa/router": "^8.0.5",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "koa": "^2.11.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  }
+}
